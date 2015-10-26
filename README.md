@@ -1,0 +1,48 @@
+Pea
+=========
+2015-10-26
+
+
+Php like functions in js.
+
+
+
+Why the name pea?
+--------------------
+
+Because p like in php.
+
+Most functions come from the [phpjs library](http://phpjs.org/).
+
+
+
+How to use?
+---------------
+
+1. Include the pea.js file in your header.
+2. Now the pea object is available globally, so you can use its methods.
+
+
+Example:
+
+```js
+var fun = function(){
+    alert("Is that fun?");
+};
+
+if( true === pea.isFunction(fun)){
+    fun();
+}
+
+```
+
+
+
+Functions
+-------------
+
+
+### bool    isArray ( mixed ) 
+### bool    isArrayObject ( mixed ) 
+### bool    isArrayOrObject ( mixed ) 
+### bool    isFunction ( mixed ) 
