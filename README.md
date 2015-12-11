@@ -42,7 +42,28 @@ Functions
 -------------
 
 
+### bool    inArray ( str:needle, arrayOrObject:haystack, bool:strict=true ) 
 ### bool    isArray ( mixed ) 
 ### bool    isArrayObject ( mixed ) 
 ### bool    isArrayOrObject ( mixed ) 
 ### bool    isFunction ( mixed ) 
+
+
+
+
+
+
+History Log
+------------------
+    
+- 1.1.0 -- 2015-12-11
+
+    - add inArray method 
+
+- 1.0.0 -- 2015-10-26
+
+    - initial commit
+    
+    
+
+

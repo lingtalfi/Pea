@@ -13,6 +13,25 @@ if ('undefined' === typeof window.pea) {
     var zis = this;
 
     window.pea = {
+        inArray: function (needle, haystack, argStrict) {
+            var key = '',
+                strict = !!argStrict;
+
+            if (strict) {
+                for (key in haystack) {
+                    if (haystack[key] === needle) {
+                        return true;
+                    }
+                }
+            } else {
+                for (key in haystack) {
+                    if (haystack[key] == needle) {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        },        
         isArray: function (mixed) {
             if (Object.prototype.toString.call(mixed) === '[object Array]') {
                 return true;
