@@ -47,6 +47,7 @@ Functions
 ### bool    isArrayObject ( mixed ) 
 ### bool    isArrayOrObject ( mixed ) 
 ### bool    isFunction ( mixed ) 
+### bool    nl2br ( str:str, bool:is_xhtml ) 
 
 
 
@@ -55,6 +56,10 @@ Functions
 
 History Log
 ------------------
+    
+- 1.2.0 -- 2016-01-09
+
+    - add nl2br method 
     
 - 1.1.0 -- 2015-12-11
 
