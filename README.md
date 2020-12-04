@@ -68,7 +68,11 @@ Functions
 
 History Log
 ------------------
-    
+
+- 1.2.1 -- 2020-12-04
+
+    - Add lpi-deps.byml file
+
 - 1.2.0 -- 2016-01-09
 
     - add nl2br method 
